@@ -1,0 +1,10 @@
+{
+  "version": "0.22.0",
+  "method": "Author-operated fresh installation target, executed outside the source directory with Python -S and only the target on PYTHONPATH. This is not an independent reviewer study. Existing build tools were already installed; archive download, Python setup, optional plotting installation and network setup are excluded.",
+  "install_seconds": 0.677,
+  "first_example_seconds": 0.098,
+  "total_seconds": 0.775,
+  "command": "python -m pip install --no-deps --no-build-isolation --target TARGET SOURCE",
+  "example_command": "python -S -m edgeguardra worked-example",
+  "success": true
+}

@@ -1,0 +1,68 @@
+{
+  "version": "0.22.0",
+  "steps": [
+    {
+      "stage": "unknown_context",
+      "outcome": "defer",
+      "code": "insufficient_or_conflicting_evidence"
+    },
+    {
+      "stage": "signed_evidence",
+      "accepted": true,
+      "code": "evidence_accepted",
+      "context_version": 3
+    },
+    {
+      "stage": "critical_proposal",
+      "outcome": "defer",
+      "code": "review_required",
+      "context_version": 3
+    },
+    {
+      "stage": "review",
+      "code": "approved_for_sandbox"
+    },
+    {
+      "stage": "execute_once",
+      "executed": true,
+      "code": "sandbox_only",
+      "action": "quarantine",
+      "target": "plc-01"
+    },
+    {
+      "stage": "execute_again",
+      "executed": false,
+      "code": "not_authorized"
+    },
+    {
+      "stage": "evidence_replay",
+      "accepted": false,
+      "code": "evidence_replay"
+    },
+    {
+      "stage": "tampered_proposal",
+      "outcome": "block",
+      "code": "invalid_signature"
+    }
+  ],
+  "final_device": {
+    "device_id": "plc-01",
+    "criticality": "critical",
+    "signal": "compromised",
+    "observed_at": 1999999999,
+    "version": 4,
+    "source_id": "detector",
+    "evidence_hash": "f54aa1d292713280bb6a7a08d47f3e9436f2bc5892e2c32a867b93467d543baa",
+    "evidence_generation": 1,
+    "quarantined": 1
+  },
+  "audit": {
+    "valid": true,
+    "anchored": false,
+    "entries": 13,
+    "head": "dbc9ba4352eb9a8841620b65f406fb090afb15a261a5c28e1e34edf3cb247283",
+    "audit_id": "db28406f80a637e4a06fe2a6a7d95648"
+  },
+  "scope": "Synthetic signed evidence, test reviewer key and SQLite device state; no real LLM, person or actuator.",
+  "key_handling": "Fresh ephemeral secrets are not included in this output."
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this software and its associated manuscript when using this research artifact."
+type: software
+title: "EdgeGuardRA: A Risk-Aware Runtime Assurance Toolkit for LLM-Based IoT Security Agents"
+version: "0.22.0"
+authors:
+  - family-names: Lu
+    given-names: Yang
+    affiliation: "Faculty of Business, Information & Human Sciences, Kuala Lumpur University of Science and Technology, Kajang 43000, Malaysia"
+    orcid: "https://orcid.org/0000-0002-3027-3064"
+repository-code: "https://github.com/ziiyuu-lgtm/EdgeGuardRA"
+url: "https://github.com/ziiyuu-lgtm/EdgeGuardRA"

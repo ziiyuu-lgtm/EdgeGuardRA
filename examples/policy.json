@@ -1,0 +1,19 @@
+{
+  "version": "demo-v1",
+  "request_ttl": 120,
+  "clock_skew": 5,
+  "max_context_age": 60,
+  "risk_threshold": 3,
+  "weights": {"inspect": 0, "quarantine": 2, "restore": 1},
+  "critical_extra": 2,
+  "denied_actions": [],
+  "grants": {
+    "defender": {
+      "inspect": ["pump-01", "plc-01"],
+      "quarantine": ["pump-01", "plc-01"],
+      "restore": ["pump-01", "plc-01"]
+    },
+    "observer": {"inspect": ["pump-01"]}
+  },
+  "review_grants": {"reviewer": {"quarantine": ["plc-01"], "restore": ["plc-01"]}}
+}

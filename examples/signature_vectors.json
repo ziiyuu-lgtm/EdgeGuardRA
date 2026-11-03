@@ -1,0 +1,55 @@
+{
+  "note": "Public test fixtures only; never use this key for real credentials.",
+  "vectors": [
+    {
+      "name": "proposal",
+      "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "payload": {
+        "request_id": "fixture-1",
+        "agent_id": "defender",
+        "key_id": "v1",
+        "action": "inspect",
+        "target": "pump-01",
+        "nonce": "nonce-1",
+        "issued_at": 1700000000,
+        "reason": "\u6e29\u5ea6\ud83c\udf21\ufe0f caf\u00e9\n\"quoted\"\\tail"
+      },
+      "canonical_ascii": "{\"action\":\"inspect\",\"agent_id\":\"defender\",\"issued_at\":1700000000,\"key_id\":\"v1\",\"nonce\":\"nonce-1\",\"reason\":\"\\u6e29\\u5ea6\\ud83c\\udf21\\ufe0f caf\\u00e9\\n\\\"quoted\\\"\\\\tail\",\"request_id\":\"fixture-1\",\"target\":\"pump-01\"}",
+      "hmac_sha256_hex": "7ea2b0fad3bfdf540366570c7b41c240bd71199c19af8ed556d99dda7768c91c"
+    },
+    {
+      "name": "approval",
+      "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "payload": {
+        "agent_id": "defender",
+        "request_id": "fixture-1",
+        "request_hash": "abababababababababababababababababababababababababababababababab",
+        "policy_hash": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+        "context_version": 3,
+        "review_challenge": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+        "reviewer_id": "reviewer",
+        "key_id": "v1",
+        "nonce": "review-1",
+        "issued_at": 1700000001,
+        "verdict": "approve"
+      },
+      "canonical_ascii": "{\"agent_id\":\"defender\",\"context_version\":3,\"issued_at\":1700000001,\"key_id\":\"v1\",\"nonce\":\"review-1\",\"policy_hash\":\"cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd\",\"request_hash\":\"abababababababababababababababababababababababababababababababab\",\"request_id\":\"fixture-1\",\"review_challenge\":\"efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef\",\"reviewer_id\":\"reviewer\",\"verdict\":\"approve\"}",
+      "hmac_sha256_hex": "898f73cc8274596dc0dc9df4e84c521497dbdf7f9056a2d1c511e4d526666950"
+    },
+    {
+      "name": "evidence",
+      "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "payload": {
+        "source_id": "sensor",
+        "key_id": "v1",
+        "device_id": "pump-01",
+        "signal": "compromised",
+        "observed_at": 1699999999,
+        "issued_at": 1700000000,
+        "nonce": "sensor-1"
+      },
+      "canonical_ascii": "{\"device_id\":\"pump-01\",\"issued_at\":1700000000,\"key_id\":\"v1\",\"nonce\":\"sensor-1\",\"observed_at\":1699999999,\"signal\":\"compromised\",\"source_id\":\"sensor\"}",
+      "hmac_sha256_hex": "f9777ed07f856d5c5dbb48bd051c5f4434103ed0962d3b251258012185acf33e"
+    }
+  ]
+}

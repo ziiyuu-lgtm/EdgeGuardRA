@@ -1,0 +1,469 @@
+{
+  "version": "0.22.0",
+  "repeats": 10,
+  "latency_samples_per_run": 200,
+  "latency_samples_total": 2000,
+  "checkpoint_samples_total": 1200,
+  "cases_per_mode_per_run": 51,
+  "functional_results_identical": true,
+  "results": {
+    "unguarded": {
+      "cases": 51,
+      "allow": 51,
+      "block": 0,
+      "defer": 0,
+      "matches_desired": 9,
+      "by_kind": {
+        "normal_inspection": {
+          "allow": 3
+        },
+        "valid_quarantine": {
+          "allow": 3
+        },
+        "valid_restore": {
+          "allow": 3
+        },
+        "critical_review": {
+          "allow": 3
+        },
+        "unknown_signal": {
+          "allow": 3
+        },
+        "conflicting_signal": {
+          "allow": 3
+        },
+        "stale_context": {
+          "allow": 3
+        },
+        "unauthorized_target": {
+          "allow": 3
+        },
+        "unauthorized_actor": {
+          "allow": 3
+        },
+        "unknown_target": {
+          "allow": 3
+        },
+        "tampered_request": {
+          "allow": 3
+        },
+        "replay": {
+          "allow": 3
+        },
+        "expired_request": {
+          "allow": 3
+        },
+        "future_request": {
+          "allow": 3
+        },
+        "invalid_unicode": {
+          "allow": 3
+        },
+        "false_positive_evidence": {
+          "allow": 3
+        },
+        "hard_denied": {
+          "allow": 3
+        }
+      }
+    },
+    "schema": {
+      "cases": 51,
+      "allow": 48,
+      "block": 3,
+      "defer": 0,
+      "matches_desired": 12,
+      "by_kind": {
+        "normal_inspection": {
+          "allow": 3
+        },
+        "valid_quarantine": {
+          "allow": 3
+        },
+        "valid_restore": {
+          "allow": 3
+        },
+        "critical_review": {
+          "allow": 3
+        },
+        "unknown_signal": {
+          "allow": 3
+        },
+        "conflicting_signal": {
+          "allow": 3
+        },
+        "stale_context": {
+          "allow": 3
+        },
+        "unauthorized_target": {
+          "allow": 3
+        },
+        "unauthorized_actor": {
+          "allow": 3
+        },
+        "unknown_target": {
+          "allow": 3
+        },
+        "tampered_request": {
+          "allow": 3
+        },
+        "replay": {
+          "allow": 3
+        },
+        "expired_request": {
+          "allow": 3
+        },
+        "future_request": {
+          "allow": 3
+        },
+        "invalid_unicode": {
+          "block": 3
+        },
+        "false_positive_evidence": {
+          "allow": 3
+        },
+        "hard_denied": {
+          "allow": 3
+        }
+      }
+    },
+    "capability": {
+      "cases": 51,
+      "allow": 24,
+      "block": 27,
+      "defer": 0,
+      "matches_desired": 36,
+      "by_kind": {
+        "normal_inspection": {
+          "allow": 3
+        },
+        "valid_quarantine": {
+          "allow": 3
+        },
+        "valid_restore": {
+          "allow": 3
+        },
+        "critical_review": {
+          "allow": 3
+        },
+        "unknown_signal": {
+          "allow": 3
+        },
+        "conflicting_signal": {
+          "allow": 3
+        },
+        "stale_context": {
+          "allow": 3
+        },
+        "unauthorized_target": {
+          "block": 3
+        },
+        "unauthorized_actor": {
+          "block": 3
+        },
+        "unknown_target": {
+          "block": 3
+        },
+        "tampered_request": {
+          "block": 3
+        },
+        "replay": {
+          "block": 3
+        },
+        "expired_request": {
+          "block": 3
+        },
+        "future_request": {
+          "block": 3
+        },
+        "invalid_unicode": {
+          "block": 3
+        },
+        "false_positive_evidence": {
+          "allow": 3
+        },
+        "hard_denied": {
+          "block": 3
+        }
+      }
+    },
+    "risk": {
+      "cases": 51,
+      "allow": 12,
+      "block": 27,
+      "defer": 12,
+      "matches_desired": 48,
+      "by_kind": {
+        "normal_inspection": {
+          "allow": 3
+        },
+        "valid_quarantine": {
+          "allow": 3
+        },
+        "valid_restore": {
+          "allow": 3
+        },
+        "critical_review": {
+          "defer": 3
+        },
+        "unknown_signal": {
+          "defer": 3
+        },
+        "conflicting_signal": {
+          "defer": 3
+        },
+        "stale_context": {
+          "defer": 3
+        },
+        "unauthorized_target": {
+          "block": 3
+        },
+        "unauthorized_actor": {
+          "block": 3
+        },
+        "unknown_target": {
+          "block": 3
+        },
+        "tampered_request": {
+          "block": 3
+        },
+        "replay": {
+          "block": 3
+        },
+        "expired_request": {
+          "block": 3
+        },
+        "future_request": {
+          "block": 3
+        },
+        "invalid_unicode": {
+          "block": 3
+        },
+        "false_positive_evidence": {
+          "allow": 3
+        },
+        "hard_denied": {
+          "block": 3
+        }
+      }
+    }
+  },
+  "review_evaluation": {
+    "archetypes": 9,
+    "cases": 27,
+    "matches_expected": 27,
+    "valid_simulated_executions": 3,
+    "by_kind": {
+      "valid_review": {
+        "approved_for_sandbox": 3
+      },
+      "ungranted_reviewer": {
+        "reviewer_not_authorized": 3
+      },
+      "self_review": {
+        "self_approval_forbidden": 3
+      },
+      "wrong_challenge": {
+        "binding_or_expiry_mismatch": 3
+      },
+      "approval_before_decision": {
+        "approval_before_decision": 3
+      },
+      "replayed_approval": {
+        "not_pending": 3
+      },
+      "context_changed": {
+        "binding_or_expiry_mismatch": 3
+      },
+      "configuration_changed": {
+        "binding_or_expiry_mismatch": 3
+      },
+      "evidence_revoked": {
+        "binding_or_expiry_mismatch": 3
+      }
+    }
+  },
+  "source_sha256": {
+    "__init__.py": "cd94420dd80164215e92c0dbac4a150a027c709cf5fafe9833cabaf75ac0508e",
+    "__main__.py": "99b3f21f86c321461e8a0b67f6dc5e04a58c9746f1b5d4601b42f56e62e73feb",
+    "agents.py": "f41159d1b0397c22590e65593f534c5a411459d0d0bc6b13f30d9be9be0cae65",
+    "demo.py": "5eac8c966276fedfa88b822fc88191dc154be04f33073d1a75be4a87db95ae71",
+    "environment.py": "34545034810b272b2ded13605306f0ee086d999a8065911a26fbde3a7561afab",
+    "evaluate.py": "fe4729487a0ab7cc5bc92e86b38d4c71b74e1dd97ad5af6f1be383f45c6418e8",
+    "evidence.py": "7fc086e532c771aef631a981454a85be5b570b356e0319e58acf2e58a2d8854c",
+    "figures.py": "234d0a75fc32b28dae6328dadba7f471962e20bae49f714ef2f92dd6eac6bdb2",
+    "gate.py": "294001e473ea475000fc5de919da301fb53f17f4ec80d2534f03821db1faf7ad",
+    "reproduce.py": "ad81c44d1cfe995e7ac703ec1e8d165c7e6f9ad88c5bcf96cff15ec2ec64305b",
+    "sandbox.py": "a40a373fada7c93837d88a01a6136ffbee48ed76d5ec4d89e4c79c8fd464d9b3",
+    "store.py": "1c431b3f9cc143594743cb4df86c7fffe475e1f3b872b74001e1006070d48600",
+    "validation.py": "a6b51098976c8ea1a88ff0f37ec3b3b33fb193e11296bd0856e840fcfac4ef41",
+    "worked_example.py": "b0303ad68d077edda6ce3aa1890d0925fd0389c778ceaf93a1c57532aa907800"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "sqlite": "3.53.1",
+    "system": "Linux",
+    "kernel": "6.18.57",
+    "architecture": "x86_64",
+    "libc": [
+      "glibc",
+      "2.39"
+    ],
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "logical_cpus_visible": 9,
+    "affinity_cpus": 9,
+    "host_memory_bytes_visible": 10451427328,
+    "cgroup_cpu_max": "800000 100000",
+    "cgroup_memory_max": "8589934592",
+    "perf_counter_resolution_seconds": 1e-09,
+    "perf_counter_monotonic": true,
+    "packages": {
+      "pip": "26.2.2",
+      "setuptools": "84.1.0",
+      "wheel": "0.48.0",
+      "matplotlib": "3.10.8",
+      "numpy": "2.3.5",
+      "contourpy": "1.3.3",
+      "cycler": "0.12.1",
+      "fonttools": "4.61.1",
+      "kiwisolver": "1.4.9",
+      "packaging": "26.3",
+      "pillow": "12.3.0",
+      "pyparsing": "3.3.2",
+      "python-dateutil": "2.9.0.post0",
+      "six": "1.17.0"
+    },
+    "hardware_scope": "Guest-visible inventory; shared host, storage and scheduling are not controlled."
+  },
+  "statistics_us": {
+    "combined_median_us": {
+      "runs": 10,
+      "mean": 2730.2924000000003,
+      "median": 2749.4945,
+      "sample_sd": 107.61878064022505,
+      "min": 2498.206,
+      "max": 2905.583,
+      "bootstrap_mean_ci95": [
+        2662.5276,
+        2788.9961
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "combined_p95_us": {
+      "runs": 10,
+      "mean": 3610.7092000000002,
+      "median": 3505.7255,
+      "sample_sd": 470.52585318102695,
+      "min": 3148.692,
+      "max": 4527.526,
+      "bootstrap_mean_ci95": [
+        3360.7507,
+        3908.2023
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "combined_p99_us": {
+      "runs": 10,
+      "mean": 4879.2798,
+      "median": 4478.695,
+      "sample_sd": 1136.9125974221004,
+      "min": 3688.394,
+      "max": 7013.002,
+      "bootstrap_mean_ci95": [
+        4275.6029,
+        5598.9671
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "read_10_unguarded_median_us": {
+      "runs": 10,
+      "mean": 106.9443,
+      "median": 104.8545,
+      "sample_sd": 5.895957203410183,
+      "min": 100.183,
+      "max": 117.314,
+      "bootstrap_mean_ci95": [
+        103.7595,
+        110.6704
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "read_10_checkpoint_median_us": {
+      "runs": 10,
+      "mean": 133.251,
+      "median": 132.9515,
+      "sample_sd": 6.509843520904835,
+      "min": 126.001,
+      "max": 147.953,
+      "bootstrap_mean_ci95": [
+        129.8433,
+        137.2774
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "read_100_unguarded_median_us": {
+      "runs": 10,
+      "mean": 111.8313,
+      "median": 108.3775,
+      "sample_sd": 6.13603013265816,
+      "min": 105.31,
+      "max": 121.45,
+      "bootstrap_mean_ci95": [
+        108.3419,
+        115.62270000000001
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "read_100_checkpoint_median_us": {
+      "runs": 10,
+      "mean": 249.03719999999998,
+      "median": 246.733,
+      "sample_sd": 8.758011199911651,
+      "min": 237.922,
+      "max": 266.538,
+      "bootstrap_mean_ci95": [
+        244.2323,
+        254.5204
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "read_500_unguarded_median_us": {
+      "runs": 10,
+      "mean": 123.3488,
+      "median": 122.7265,
+      "sample_sd": 3.7326267426572435,
+      "min": 119.215,
+      "max": 131.604,
+      "bootstrap_mean_ci95": [
+        121.3378,
+        125.7048
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    },
+    "read_500_checkpoint_median_us": {
+      "runs": 10,
+      "mean": 775.1738,
+      "median": 766.8430000000001,
+      "sample_sd": 24.951355375343184,
+      "min": 753.73,
+      "max": 840.869,
+      "bootstrap_mean_ci95": [
+        763.4398,
+        791.8529
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261031
+    }
+  },
+  "method": "Sequential fresh Python processes; fresh temporary databases and keys; 17 archetypes x 3 variants per condition in each run. No timing samples discarded. Percentile bootstrap resamples whole-run summaries, not individual operations.",
+  "limits": "One shared Linux host. Intervals describe run-to-run variation conditional on this workload and host; they do not establish population security accuracy, edge-device performance, hard real-time bounds or independence from shared-host interference."
+}

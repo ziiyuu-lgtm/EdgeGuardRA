@@ -1,0 +1,22 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "EdgeGuardRA: A Risk-Aware Runtime Assurance Toolkit for LLM-Based IoT Security Agents",
+  "version": "0.22.0",
+  "description": "Research toolkit for authenticated, risk-aware proposed-action decisions and simulated IoT security workflows.",
+  "programmingLanguage": "Python",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Yang",
+      "familyName": "Lu",
+      "@id": "https://orcid.org/0000-0002-3027-3064",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Faculty of Business, Information & Human Sciences, Kuala Lumpur University of Science and Technology, Kajang 43000, Malaysia"
+      }
+    }
+  ],
+  "codeRepository": "https://github.com/ziiyuu-lgtm/EdgeGuardRA",
+  "issueTracker": "https://github.com/ziiyuu-lgtm/EdgeGuardRA/issues"
+}

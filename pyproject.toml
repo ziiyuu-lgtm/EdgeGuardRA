@@ -9,6 +9,7 @@ description = "Research prototype for risk-aware simulated IoT agent actions"
 requires-python = ">=3.10"
 authors = [{name = "Yang Lu", email = "yanglu@klust.edu.cn"}]
 readme = "README.md"
+license = {file = "LICENSE"}
 
 [project.scripts]
 edgeguardra = "edgeguardra.__main__:main"

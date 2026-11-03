@@ -18,5 +18,6 @@
     }
   ],
   "codeRepository": "https://github.com/ziiyuu-lgtm/EdgeGuardRA",
-  "issueTracker": "https://github.com/ziiyuu-lgtm/EdgeGuardRA/issues"
+  "issueTracker": "https://github.com/ziiyuu-lgtm/EdgeGuardRA/issues",
+  "license": "https://spdx.org/licenses/Apache-2.0.html"
 }

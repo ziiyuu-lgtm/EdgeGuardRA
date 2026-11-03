@@ -126,7 +126,7 @@ Append `--execute-simulated` to apply an allowed action to a temporary simulated
 
 See `docs/EXPERIMENT.md` for scenario labels, ablations and measurement limits. Baselines are small in-process ablations, not external products. Scenario labels are hand designed, and variants are not independent incidents. HMAC authenticates possession of a secret but does not prove that a sensor is correct or that a human performed a review.
 
-Citation metadata is in `CITATION.cff` and `codemeta.json`. Maintainer contact: Yang Lu, yanglu@klust.edu.cn. The public source repository and issue tracker are linked below. Release DOI and open-source license selection remain pending. No open-source permission is implied by public visibility. Archive identifiers will be inserted consistently in citation metadata and the manuscript after archiving.
+Citation metadata is in `CITATION.cff` and `codemeta.json`. Maintainer contact: Yang Lu, yanglu@klust.edu.cn. The public source repository and issue tracker are linked below. The software is licensed under Apache-2.0. Release DOI remains pending. Archive identifiers will be inserted consistently in citation metadata and the manuscript after archiving.
 
 ## Repository and support
 
@@ -134,4 +134,12 @@ Source: https://github.com/ziiyuu-lgtm/EdgeGuardRA
 
 Issue tracker: https://github.com/ziiyuu-lgtm/EdgeGuardRA/issues
 
-License selection and permanent archive identifiers are pending. Public visibility does not grant an open-source license. The reviewed research software version is 0.22.0.
+The reviewed research software version is 0.22.0. Permanent archive identifiers are pending.
+
+## License
+
+Copyright 2026 Yang Lu. Licensed under the Apache License, Version 2.0. See LICENSE and NOTICE.
+
+## Citation
+
+Please use CITATION.cff to cite this software. A version DOI will be added after archival publication.

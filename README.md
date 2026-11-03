@@ -126,7 +126,7 @@ Append `--execute-simulated` to apply an allowed action to a temporary simulated
 
 See `docs/EXPERIMENT.md` for scenario labels, ablations and measurement limits. Baselines are small in-process ablations, not external products. Scenario labels are hand designed, and variants are not independent incidents. HMAC authenticates possession of a secret but does not prove that a sensor is correct or that a human performed a review.
 
-Citation metadata is in `CITATION.cff` and `codemeta.json`. Maintainer contact: Yang Lu, yanglu@klust.edu.cn. A public repository, release DOI, issue tracker and open-source license have not been assigned. No open-source permission is implied by this local archive; the rights holder must select a license before external redistribution. Public release identifiers must be inserted consistently in citation metadata and the manuscript after an actual release.
+Citation metadata is in `CITATION.cff` and `codemeta.json`. Maintainer contact: Yang Lu, yanglu@klust.edu.cn. The public source repository and issue tracker are linked below. Release DOI and open-source license selection remain pending. No open-source permission is implied by public visibility. Archive identifiers will be inserted consistently in citation metadata and the manuscript after archiving.
 
 ## Repository and support
 

@@ -19,5 +19,10 @@
   ],
   "codeRepository": "https://github.com/ziiyuu-lgtm/EdgeGuardRA",
   "issueTracker": "https://github.com/ziiyuu-lgtm/EdgeGuardRA/issues",
-  "license": "https://spdx.org/licenses/Apache-2.0.html"
+  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "identifier": "https://doi.org/10.5281/zenodo.23902361",
+  "url": "https://zenodo.org/records/23902361",
+  "relatedLink": [
+    "https://doi.org/10.5281/zenodo.23902360"
+  ]
 }
